@@ -1,0 +1,51 @@
+# ============================================================================
+# .gitignore - CARPETA RAÍZ
+# Configuración para ignorar archivos en el directorio principal de todos
+# los proyectos. Los proyectos individuales tienen sus propios .gitignore
+# ============================================================================
+
+# Archivos de Entorno (NUNCA subir a GitHub)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Entorno Virtual Global
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+.AppleDouble
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+logs/

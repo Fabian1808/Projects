@@ -1,0 +1,68 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║              EJEMPLO: CREAR UN NUEVO PROYECTO                              ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+1. ABRIR TERMINAL en "/home/fabian/data science"
+
+2. EJECUTAR el script (reemplaza los valores):
+
+   bash create_project.sh project3 "Análisis de Comportamiento de Clientes"
+
+3. EL SCRIPT CREA AUTOMÁTICAMENTE:
+   ✓ Carpeta project3/
+   ✓ Subcarpetas: data/, output/
+   ✓ Archivos: .gitignore, README.md
+   ✓ Repositorio Git local
+
+4. ENTRADA EN LA CARPETA:
+
+   cd project3
+
+5. VERIFICAR ESTRUCTURA:
+
+   ls -la
+   # Deberías ver:
+   # - data/
+   # - output/
+   # - .gitignore
+   # - README.md
+   # - .git/
+
+6. CREAR TU NOTEBOOK:
+
+   jupyter notebook notebook.ipynb
+
+7. TRABAJAR EN TU ANÁLISIS:
+
+   (Escribe tu código Python en el notebook)
+
+8. HACER COMMIT LOCAL:
+
+   git add .
+   git commit -m "Mi análisis inicial"
+
+9. CREAR REPOSITORIO EN GITHUB:
+
+   - Ve a github.com/new
+   - Nombre: Project3
+   - NO inicialices con README
+
+10. CONECTAR CON GITHUB:
+
+    git remote add origin https://github.com/Fabian1808/Project3.git
+    git branch -M main
+    git push -u origin main
+
+11. ¡LISTO! Tu proyecto está en GitHub 🎉
+
+════════════════════════════════════════════════════════════════════════════
+
+NOTAS IMPORTANTES:
+
+✓ El .env está en "/home/fabian/data science/.env" y está PROTEGIDO
+✓ No se perderá al cambiar entre proyectos
+✓ Cada proyecto tiene su propio repositorio Git
+✓ El venv/ es compartido para todos los proyectos
+✓ Todos los .gitignore locales protegen archivos sensibles
+
+════════════════════════════════════════════════════════════════════════════
